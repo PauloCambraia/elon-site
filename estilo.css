@@ -1,0 +1,19 @@
+/* Paleta da Integralis (brand/tokens.css): escuro por padrão. */
+:root {
+  --bg: #070609; --card: #111118; --line: #20212f;
+  --fg: #ffffff; --mut: #adaeb8; --grey: #9aa2a7;
+  --pri: #439cb6; --pri-lt: #7fd6f0;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+.marca { letter-spacing: .12em; font-size: 13px; margin: 0 0 24px; }
+.marca b { color: var(--pri-lt); }
+.marca span { color: var(--grey); }
+h1 { font-size: 30px; margin: 0 0 8px; }
+h2 { font-size: 19px; margin: 32px 0 8px; color: var(--pri-lt); }
+p, li { color: var(--mut); }
+b { color: var(--fg); }
+a { color: var(--pri-lt); }
+code { background: var(--card); border: 1px solid var(--line); border-radius: 4px; padding: 0 4px; }
+.pe { font-size: 14px; color: var(--grey); }
